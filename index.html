@@ -1,80 +1,265 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio Liedson Bila</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="styles.css">
+    <meta name="description" content="Liedson Bila - Desenvolvedor Web Junior especializado em HTML, CSS, JavaScript, MySQL e GitHub">
+    <title>Liedson Bila | Desenvolvedor Web Junior</title>
+    <link rel="stylesheet" href="asse/css/styles.css">
 </head>
 <body>
-    <!-- Efeitos de fundo futuristas -->
-    <div class="grid-pattern"></div>
-    <div class="glow-effect" style="top: 20%; left: 10%;"></div>
-    <div class="glow-effect" style="bottom: 10%; right: 15%;"></div>
-    
-    <div class="particles" id="particles"></div>
-    
     <!-- Cabeçalho -->
     <header>
-        <div class="container">
-            <div class="header-content">
-                <div class="profile-section">
-                    <div class="profile-img-container">
-                        <img src="asse/img/Imagem WhatsApp 2024-01-20 às 17.03.57_ee2aa335.jpg" alt="Seu Nome" class="profile-img">
-                    </div>
+        <nav>
+            <div class="logo">Liedson Bila</div>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Início</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#projects">Projetos</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+            <button class="mobile-menu">☰</button>
+        </nav>
+    </header>
+    
+    <!-- Seção Hero -->
+    <section class="hero" id="home">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1>Desenvolvedor Web Junior</h1>
+                <p class="subtitle">Transformando ideias em soluções digitais</p>
+                <p>
+                    Olá! Sou o Liedson, um desenvolvedor apaixonado por criar experiências web 
+                    modernas e funcionais. Especializado em front-end e com conhecimentos sólidos 
+                    em back-end e banco de dados.
+                </p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn btn-primary">Ver Projetos</a>
+                    <a href="mailto:liedson.bila@email.com" class="btn btn-secondary">Contratar-me</a>
                 </div>
-                <div class="title-section">
-                    <h1>Liedson Bila</h1>
-                    <p class="subtitle">Desenvolvedor Web Full Stack</p>
-                    <p class="description">Especializado em construir soluções digitais robustas e escaláveis, transformando ideias em experiências interativas e funcionais. Combinando código limpo, performance otimizada e designs responsivos.</p>
-                    <div class="social-links">
-                        <a href="https://github.com/LiPitv" class="social-link" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
-                        <a href="https://www.linkedin.com/in/liedson-gabriel-70355523a/" class="social-link" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
-                        <a href="https://www.instagram.com/lipi1_18?igsh=NDE3amV6YWhkNWN4" class="social-link" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            </div>
+            <div class="hero-image">
+                <div class="profile-card">
+                    <div class="profile-avatar">👨‍💻</div>
+                    <h3>Liedson Bila</h3>
+                    <p>Desenvolvedor Web</p>
+                    <div style="margin-top: 1rem;">
+                        <a href="#about" style="background: var(--primary-color); color: white; padding: 0.5rem 1rem; border-radius: 0.25rem; font-size: 0.875rem; text-decoration: none; font-weight: 500;">
+                            Conheça minha história →
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
-    </header>
+    </section>
     
     <!-- Seção Sobre -->
-    <section class="about">
+    <section id="about">
         <div class="container">
             <div class="section-header">
-                <h2>Sobre Mim</h2>
-                <div class="section-line"></div>
+                <h2 class="section-title">Sobre Mim</h2>
+                <p class="section-subtitle">
+                    Conheça minha jornada, paixões e o que me motiva como desenvolvedor
+                </p>
             </div>
-            <div class="about-content">
-                <div class="about-text">
-                    <p>Olá! Meu nome é <span class="highlight">Liedson Bila</span> e sou um desenvolvedor web apaixonado por transformar ideias em realidade digital. Com <span class="highlight">2 anos</span> de experiência no desenvolvimento web, transformei minha curiosidade em projetos reais e soluções funcionais.</p>
-                    <p>Desde os primeiros códigos até interfaces completas, venho aprimorando minhas habilidades em design e programação para criar soluções que unem criatividade e tecnologia. Cada linha de código que escrevo é um passo na minha jornada para me tornar um desenvolvedor ainda mais completo.</p>
-                    <p>Atualmente, meu foco está no desenvolvimento full stack, dominando <span class="highlight">HTML/CSS, JavaScript, PHP e MySQL</span>, além de versionamento com <span class="highlight">Git/GitHub</span>. Estou constantemente explorando novas tecnologias para criar aplicações que sejam tanto elegantes quanto poderosas.</p>
+            <div class="about-container">
+                <div class="about-content">
+                    <div class="about-text">
+                        <h3>Minha História</h3>
+                        <p>
+                            Sou Liedson Bila, um jovem desenvolvedor web apaixonado por tecnologia e inovação. 
+                            Minha jornada na programação começou por curiosidade e se transformou em uma verdadeira 
+                            paixão por criar soluções digitais que fazem a diferença.
+                        </p>
+                        <p>
+                            Tenho me dedicado intensamente ao aprendizado das tecnologias web modernas, sempre 
+                            buscando as melhores práticas de desenvolvimento e focando na qualidade do código. 
+                            Acredito que a programação é uma ferramenta poderosa para resolver problemas reais 
+                            e criar experiências incríveis para os usuários.
+                        </p>
+                        
+                        <div class="personal-stats">
+                            <div class="stat-item">
+                                <span class="stat-number">50+</span>
+                                <span class="stat-label">Horas de Código/Semana</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">10+</span>
+                                <span class="stat-label">Projetos Desenvolvidos</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">2+</span>
+                                <span class="stat-label">Anos de Experiência</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="about-details">
+                        <div class="detail-card">
+                            <h4>🎯 Objetivos Profissionais</h4>
+                            <ul>
+                                <li>Dominar tecnologias front-end modernas (React, Vue.js)</li>
+                                <li>Expandir conhecimentos em back-end (Node.js, Python)</li>
+                                <li>Contribuir para projetos open source</li>
+                                <li>Trabalhar em uma empresa de tecnologia inovadora</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="detail-card">
+                            <h4>💡 Paixões & Interesses</h4>
+                            <ul>
+                                <li>Desenvolvimento web e mobile</li>
+                                <li>Design de interfaces (UI/UX)</li>
+                                <li>Inteligência artificial e machine learning</li>
+                                <li>Comunidade tech e networking</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="detail-card">
+                            <h4>🌱 Aprendizado Contínuo</h4>
+                            <ul>
+                                <li>Cursos online em plataformas como Udemy e Coursera</li>
+                                <li>Participação em comunidades de desenvolvedores</li>
+                                <li>Projetos pessoais para praticar novas tecnologias</li>
+                                <li>Leitura de documentação técnica e blogs especializados</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="detail-card">
+                            <h4>⚡ Valores Profissionais</h4>
+                            <ul>
+                                <li><strong>Qualidade:</strong> Código limpo e bem documentado</li>
+                                <li><strong>Colaboração:</strong> Trabalho em equipe eficiente</li>
+                                <li><strong>Inovação:</strong> Sempre buscando soluções criativas</li>
+                                <li><strong>Dedicação:</strong> Comprometimento com prazos e resultados</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-                <div class="skills-container">
-                    <div class="skill-item">
-                        <div class="skill-icon"><i class="fas fa-code"></i></div>
-                        <p>HTML/CSS</p>
+                
+                <div class="about-image-section">
+                    <div class="about-profile">
+                        <div class="profile-image">
+                            <span>👨‍💻</span>
+                        </div>
+                        <div class="profile-info">
+                            <h3>Liedson Bila</h3>
+                            <p>Desenvolvedor Web Junior</p>
+                            <p class="location">📍 Luanda, Angola</p>
+                            <div class="availability">
+                                <span class="status-indicator"></span>
+                                <span>Disponível para oportunidades</span>
+                            </div>
+                        </div>
                     </div>
-                    <div class="skill-item">
-                        <div class="skill-icon"><i class="fab fa-js"></i></div>
-                        <p>JavaScript</p>
+                    
+                    <div class="fun-facts">
+                        <h4>Curiosidades sobre mim</h4>
+                        <div class="fact-item">
+                            <span>☕</span>
+                            <p>Consumo em média 4 xícaras de café por dia</p>
+                        </div>
+                        <div class="fact-item">
+                            <span>🌙</span>
+                            <p>Programo melhor durante a noite</p>
+                        </div>
+                        <div class="fact-item">
+                            <span>📚</span>
+                            <p>Sempre tenho um livro técnico em leitura</p>
+                        </div>
+                        <div class="fact-item">
+                            <span>🎮</span>
+                            <p>Gamer nas horas vagas - inspira minha criatividade</p>
+                        </div>
                     </div>
-                    <div class="skill-item">
-                        <div class="skill-icon"><i class="fab fa-php"></i></div>
-                        <p>PHP</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Seção Habilidades -->
+    <section id="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Habilidades Técnicas</h2>
+                <p class="section-subtitle">
+                    Tecnologias e ferramentas que domino para criar soluções web completas
+                </p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card fade-in">
+                    <div class="skill-header">
+                        <div class="skill-icon">🌐</div>
+                        <h3>HTML5</h3>
                     </div>
-                    <div class="skill-item">
-                        <div class="skill-icon"><i class="fas fa-database"></i></div>
-                        <p>MySQL</p>
+                    <p>Estruturação semântica e acessível de páginas web seguindo as melhores práticas do HTML5.</p>
+                    <div class="skill-level">
+                        <span>Proficiência</span>
+                        <span style="font-weight: 600; color: var(--primary-color);">85%</span>
                     </div>
-                    <div class="skill-item">
-                        <div class="skill-icon"><i class="fas fa-mobile-alt"></i></div>
-                        <p>Responsivo</p>
+                    <div class="skill-progress">
+                        <div class="skill-progress-bar" style="width: 85%"></div>
                     </div>
-                    <div class="skill-item">
-                        <div class="skill-icon"><i class="fab fa-git-alt"></i></div>
-                        <p>Git/GitHub</p>
+                </div>
+                
+                <div class="skill-card fade-in">
+                    <div class="skill-header">
+                        <div class="skill-icon">🎨</div>
+                        <h3>CSS3</h3>
+                    </div>
+                    <p>Estilização moderna com Flexbox, Grid, animações e design responsivo para todos os dispositivos.</p>
+                    <div class="skill-level">
+                        <span>Proficiência</span>
+                        <span style="font-weight: 600; color: var(--primary-color);">80%</span>
+                    </div>
+                    <div class="skill-progress">
+                        <div class="skill-progress-bar" style="width: 80%"></div>
+                    </div>
+                </div>
+                
+                <div class="skill-card fade-in">
+                    <div class="skill-header">
+                        <div class="skill-icon">⚡</div>
+                        <h3>JavaScript</h3>
+                    </div>
+                    <p>Programação interativa, manipulação do DOM, APIs modernas e lógica de negócios no front-end.</p>
+                    <div class="skill-level">
+                        <span>Proficiência</span>
+                        <span style="font-weight: 600; color: var(--primary-color);">75%</span>
+                    </div>
+                    <div class="skill-progress">
+                        <div class="skill-progress-bar" style="width: 75%"></div>
+                    </div>
+                </div>
+                
+                <div class="skill-card fade-in">
+                    <div class="skill-header">
+                        <div class="skill-icon">🗄️</div>
+                        <h3>MySQL</h3>
+                    </div>
+                    <p>Modelagem de dados, queries otimizadas e gerenciamento de bancos de dados relacionais.</p>
+                    <div class="skill-level">
+                        <span>Proficiência</span>
+                        <span style="font-weight: 600; color: var(--primary-color);">70%</span>
+                    </div>
+                    <div class="skill-progress">
+                        <div class="skill-progress-bar" style="width: 70%"></div>
+                    </div>
+                </div>
+                
+                <div class="skill-card fade-in">
+                    <div class="skill-header">
+                        <div class="skill-icon">🔧</div>
+                        <h3>GitHub</h3>
+                    </div>
+                    <p>Controle de versão, colaboração em equipe, workflows de CI/CD e melhores práticas Git.</p>
+                    <div class="skill-level">
+                        <span>Proficiência</span>
+                        <span style="font-weight: 600; color: var(--primary-color);">78%</span>
+                    </div>
+                    <div class="skill-progress">
+                        <div class="skill-progress-bar" style="width: 78%"></div>
                     </div>
                 </div>
             </div>
@@ -82,76 +267,106 @@
     </section>
     
     <!-- Seção Projetos -->
-    <section class="projects">
+    <section id="projects">
         <div class="container">
             <div class="section-header">
-                <h2>Projetos Destacados</h2>
-                <div class="section-line"></div>
+                <h2 class="section-title">Projetos em Destaque</h2>
+                <p class="section-subtitle">
+                    Alguns dos meus trabalhos recentes que demonstram minhas habilidades técnicas
+                </p>
             </div>
             <div class="projects-grid">
-                <!-- Projeto 1 -->
-                <div class="project-card">
-                    <div class="project-img-container">
-                        <img src="asse/img/Opera Instantâneo_2025-06-20_211411_lipitv.github.io.png" alt="Site De Viagem De Ônibus" class="project-img">
+                <div class="project-card fade-in">
+                    <div class="project-image">
+                        <span class="project-status">Em Produção</span>
+                        🏢
                     </div>
-                    <div class="project-info">
-                        <div class="project-header">
-                            <h3 class="project-title">Site De Viagem De Ônibus</h3>
-                            <div class="project-links">
-                                <a href="https://github.com/LiPitv/Transangola" class="project-link" aria-label="Código no GitHub"><i class="fab fa-github"></i></a>
-                                <a href="https://lipitv.github.io/Transangola/" class="project-link" aria-label="Visualizar projeto"><i class="fas fa-external-link-alt"></i></a>
-                            </div>
-                        </div>
-                        <p class="project-description">Desenvolvido para facilitar a venda e administração de passagens de ônibus, este sistema completo foi construído com PHP e MySQL, garantindo um banco de dados robusto e operações eficientes. Com um painel administrativo intuitivo, é possível gerenciar rotas, horários, passageiros, motoristas, veículos e relatórios financeiros de forma centralizada.</p>
-                        <div class="project-tech">
-                            <span class="tech-tag">HTML</span>
-                            <span class="tech-tag">CSS</span>
-                            <span class="tech-tag">JavaScript</span>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- Projeto 2 -->
-                <div class="project-card">
-                    <div class="project-img-container">
-                        <img src="projeto2.jpg" alt="Site Institucional" class="project-img">
-                    </div>
-                    <div class="project-info">
-                        <div class="project-header">
-                            <h3 class="project-title">Site Institucional</h3>
-                            <div class="project-links">
-                                <a href="#" class="project-link" aria-label="Código no GitHub"><i class="fab fa-github"></i></a>
-                                <a href="#" class="project-link" aria-label="Visualizar projeto"><i class="fas fa-external-link-alt"></i></a>
-                            </div>
-                        </div>
-                        <p class="project-description">Website responsivo para empresa local, com design moderno e otimizado para SEO e performance.</p>
+                    <div class="project-content">
+                        <h3>Sistema de Gestão Empresarial</h3>
+                        <p>Aplicação web completa para gestão de clientes, produtos e vendas com dashboard administrativo interativo.</p>
                         <div class="project-tech">
                             <span class="tech-tag">HTML5</span>
                             <span class="tech-tag">CSS3</span>
                             <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">MySQL</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-primary btn-sm">Ver Demo</a>
+                            <a href="#" class="btn btn-secondary btn-sm">GitHub</a>
                         </div>
                     </div>
                 </div>
                 
-                <!-- Projeto 3 -->
-                <div class="project-card">
-                    <div class="project-img-container">
-                        <img src="projeto3.jpg" alt="Aplicação Web" class="project-img">
+                <div class="project-card fade-in">
+                    <div class="project-image">
+                        <span class="project-status">Concluído</span>
+                        📊
                     </div>
-                    <div class="project-info">
-                        <div class="project-header">
-                            <h3 class="project-title">Aplicação Web</h3>
-                            <div class="project-links">
-                                <a href="#" class="project-link" aria-label="Código no GitHub"><i class="fab fa-github"></i></a>
-                                <a href="#" class="project-link" aria-label="Visualizar projeto"><i class="fas fa-external-link-alt"></i></a>
-                            </div>
-                        </div>
-                        <p class="project-description">Aplicação interativa com funcionalidades avançadas e integração com API externa.</p>
+                    <div class="project-content">
+                        <h3>Dashboard Analytics</h3>
+                        <p>Painel de controle com gráficos interativos, relatórios em tempo real e sistema de filtros avançados.</p>
                         <div class="project-tech">
                             <span class="tech-tag">JavaScript</span>
-                            <span class="tech-tag">API REST</span>
-                            <span class="tech-tag">Bootstrap</span>
+                            <span class="tech-tag">Chart.js</span>
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">CSS Grid</span>
                         </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-primary btn-sm">Ver Demo</a>
+                            <a href="#" class="btn btn-secondary btn-sm">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card fade-in">
+                    <div class="project-image">
+                        <span class="project-status">Concluído</span>
+                        🛒
+                    </div>
+                    <div class="project-content">
+                        <h3>E-commerce Responsivo</h3>
+                        <p>Loja virtual moderna com carrinho de compras, sistema de pagamento e painel administrativo completo.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">MySQL</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-primary btn-sm">Ver Demo</a>
+                            <a href="#" class="btn btn-secondary btn-sm">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Seção Contato -->
+    <section id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Vamos Trabalhar Juntos</h2>
+                <p class="section-subtitle">
+                    Estou sempre aberto a novas oportunidades e projetos interessantes
+                </p>
+            </div>
+            <div class="contact-container fade-in">
+                <p style="font-size: 1.1rem; margin-bottom: 2rem; color: var(--text-secondary);">
+                    Entre em contato comigo através dos canais abaixo. Respondo rapidamente!
+                </p>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <span>📧</span>
+                        <a href="mailto:liedson.bila@email.com">liedson.bila@email.com</a>
+                    </div>
+                    <div class="contact-item">
+                        <span>💼</span>
+                        <a href="https://linkedin.com/in/liedsonbila" target="_blank">LinkedIn</a>
+                    </div>
+                    <div class="contact-item">
+                        <span>🔧</span>
+                        <a href="https://github.com/liedsonbila" target="_blank">GitHub</a>
                     </div>
                 </div>
             </div>
@@ -161,13 +376,10 @@
     <!-- Rodapé -->
     <footer>
         <div class="container">
-            <div class="footer-content">
-                <h2 class="footer-title">Vamos Trabalhar Juntos</h2>
-                <p class="footer-text">Estou disponível para oportunidades de freelance e colaborações. Se você tem um projeto em mente ou precisa de um desenvolvedor dedicado, entre em contato!</p>
-                <a href="https://wa.me/244930728358?text=Olá%20Liedson,%20vim%20do%20seu%20portfólio%20e%20gostaria%20de%20conversar%20sobre%20um%20projeto." class="contact-btn" target="_blank">Envie uma Mensagem</a>
-                <p class="copyright">© <span id="year"></span> Liedson Bila. Todos os direitos reservados.</p>
-            </div>
+            <p>&copy; 2025 Liedson Bila. Desenvolvedor Web Junior - Criado com dedicação e café ☕</p>
         </div>
     </footer>
+    
+    <script src="asse/JS/Js.js"></script>
 </body>
 </html>
